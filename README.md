@@ -2,19 +2,27 @@
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Personal Portfolio Website
 
-This contains everything you need to run your app locally.
+This is my personal portfolio website showcasing my projects, skills, and experience as a developer. It serves as a central place to learn more about my work and background.
 
-View your app in AI Studio: https://ai.studio/apps/92d8d92e-15ac-4487-9399-23e88177b00c
+# 🚀 Live Demo
 
-## Run Locally
+https://ritik-gulati.vercel.app/
 
-**Prerequisites:**  Node.js
+# 🛠️ Built With
+TypeScript
+HTML5
+CSS3
+Google AI Studio (used for development assistance and optimization)
 
+# 📌 Features
+Responsive design for all devices
+Clean and modern UI
+Projects showcase section
+About me section
+Contact information and social links
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# 💡 Purpose
+
+The goal of this project was to build a professional online presence and improve my front-end development skills while experimenting with AI-assisted development tools.
