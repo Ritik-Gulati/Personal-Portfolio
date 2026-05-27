@@ -6,23 +6,23 @@
 
 This is my personal portfolio website showcasing my projects, skills, and experience as a developer. It serves as a central place to learn more about my work and background.
 
-# 🚀 Live Demo
+# Live Demo
 
 https://ritik-gulati.vercel.app/
 
-# 🛠️ Built With
+# Built With
 TypeScript
 HTML5
 CSS3
 Google AI Studio (used for development assistance and optimization)
 
-# 📌 Features
+# Features
 Responsive design for all devices
 Clean and modern UI
 Projects showcase section
 About me section
 Contact information and social links
 
-# 💡 Purpose
+# Purpose
 
 The goal of this project was to build a professional online presence and improve my front-end development skills while experimenting with AI-assisted development tools.
