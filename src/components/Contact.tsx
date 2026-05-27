@@ -56,7 +56,7 @@ export default function Contact() {
           {/* Left Column: Coordinates Cards */}
           <div className="lg:col-span-5 space-y-6">
             <h3 className="font-display text-xl md:text-2xl font-bold text-white tracking-tight leading-snug">
-              Have an opening or project in mind? Let’s talk backend!
+              Have an opening or project in mind? Let’s talk!
             </h3>
             <p className="font-sans text-xs sm:text-sm text-text-sec leading-relaxed">
               I am actively seeking software engineer opportunities inside high-growth fintechs, core cloud infrastructure groups, and agile engineering organizations. Feel free to reach out anytime via the contact portal.
@@ -87,31 +87,6 @@ export default function Contact() {
                     ritikgulati8447@gmail.com
                   </a>
                   <p className="font-sans text-xs text-text-sec mt-0.5">Response latency: &lt;12 Hours</p>
-                </div>
-              </div>
-
-              {/* Social grid */}
-              <div className="flex items-center gap-4 pt-4">
-                <span className="font-mono text-xs text-gray-500 tracking-wider">SECURE_LI_GH //</span>
-                <div className="flex items-center gap-2">
-                  <a
-                    href="https://www.linkedin.com/in/ritik-gulati-9755601a1/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-2.5 bg-white/5 rounded-xl border border-white/5 text-gray-400 hover:text-accent-blue hover:border-accent-blue/20 hover:shadow-[0_0_10px_rgba(192,57,43,0.25)] hover:scale-105 transition-all"
-                    title="LinkedIn Link"
-                  >
-                    <Linkedin className="w-4.5 h-4.5" />
-                  </a>
-                  <a
-                    href="https://github.com/Ritik-Gulati"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-2.5 bg-white/5 rounded-xl border border-white/5 text-gray-400 hover:text-accent-blue hover:border-accent-blue/20 hover:shadow-[0_0_10px_rgba(192,57,43,0.25)] hover:scale-105 transition-all"
-                    title="GitHub Link"
-                  >
-                    <Github className="w-4.5 h-4.5" />
-                  </a>
                 </div>
               </div>
 
