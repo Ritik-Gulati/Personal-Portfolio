@@ -8,16 +8,23 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 https://ritik-gulati.vercel.app/
 
 # Built With
-TypeScript\n
-HTML5
-CSS3
-Google AI Studio (used for development assistance and optimization)
+`TypeScript`
+
+`HTML5`
+
+`CSS3`
+
+`Google AI Studio` (used for development assistance and optimization)
 
 # Features
 Responsive design for all devices
+
 Clean and modern UI
+
 Projects showcase section
+
 About me section
+
 Contact information and social links
 
 # Purpose
