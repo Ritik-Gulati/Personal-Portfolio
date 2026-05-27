@@ -9,8 +9,8 @@ export default function Experience() {
   const [expandedCards, setExpandedCards] = useState<Record<string, boolean>>({
     'fig-financial': true,
     'netcreativemind': true,
-    'q2serves': false,
-    'hcl': false
+    'q2serves': true,
+    'hcl': true
   });
 
   const toggleExpand = (id: string) => {
@@ -55,8 +55,8 @@ export default function Experience() {
                 <div className="absolute -left-[31px] md:-left-[55px] top-1.5 w-4 h-4 rounded-full bg-bg-deep border-2 border-accent-blue ring-4 ring-accent-blue/10 flex items-center justify-center group-hover:border-accent-purple group-hover:scale-125 transition-all duration-300 z-10" />
 
                 {/* Left Date flag (Visible only on medium screens and larger) */}
-                <span className="hidden md:block absolute -left-36 top-1.5 w-24 text-right font-mono text-xs text-gray-500 font-medium group-hover:text-accent-blue transition-colors">
-                  {exp.duration.split('–')[0]}
+                <span className="hidden md:block absolute -left-56 top-1.5 w-40 text-right font-mono text-xs text-text-sec/60 font-medium group-hover:text-accent-blue transition-colors">
+                  {exp.duration}
                 </span>
 
                 {/* Interactive Glass card */}
