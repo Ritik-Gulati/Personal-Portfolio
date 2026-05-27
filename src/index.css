@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom colors matching the user specification using dark red/crimson accents */
+  --color-bg-deep: #000000;
+  --color-bg-card: #0A0A0A;
+  --color-accent-blue: #C0392B; /* Alizarin deep red */
+  --color-accent-purple: #8B0000; /* Dark red/Crimson */
+  --color-text-sec: #B3B8C5;
+}
+
+/* Global scroll behavior and color corrections */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #161616;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C0392B;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(10, 10, 10, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.glass-nav {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+/* Custom Glowing effects in red - made more subtle */
+.text-glow-blue {
+  text-shadow: 0 0 8px rgba(192, 57, 43, 0.35);
+}
+
+.glow-glow-blue {
+  box-shadow: 0 0 15px rgba(192, 57, 43, 0.15);
+}
+
+.glow-glow-purple {
+  box-shadow: 0 0 15px rgba(139, 0, 0, 0.15);
+}
+
+/* Custom cursor indicator & particles styles */
+.cursor-dot {
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(192, 57, 43, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
+}
